@@ -6,7 +6,7 @@ syntax enable
 set tabstop=2
 set softtabstop=2
 set expandtab
-
+set shiftwidth=2
 set number
 set showcmd
 set cursorline
@@ -20,3 +20,5 @@ set hlsearch  "highlight matches
 
 set foldenable
 
+" treat handlebars files as html
+au BufNewFile,BufRead *.handlebars set filetype=html
